@@ -30,15 +30,25 @@ interface StudentFormData {
 }
 
 const SAMPLE_PARENTS = [
-  { id: 1, name: 'Robert Doe', relationship: 'Father' },
-  { id: 2, name: 'Mary Smith', relationship: 'Mother' },
-  { id: 3, name: 'John Wilson', relationship: 'Guardian' }
+  { id: 1, name: 'Muammad Imran', relationship: 'Father' },
+  { id: 2, name: 'Danish Shahzad', relationship: 'Mother' },
+  { id: 3, name: 'Muhammad Arsalan', relationship: 'Guardian' }
 ];
 
 const SAMPLE_CLASSES = [
-  { id: 1, name: 'Class 5' },
-  { id: 2, name: 'Class 6' },
-  { id: 3, name: 'Class 7' }
+  { id: 1, name: 'Class 1' },
+  { id: 2, name: 'Class 2' },
+  { id: 3, name: 'Class 3' },
+  { id: 4, name: 'Class 4' },
+  { id: 5, name: 'Class 5' },
+  { id: 6, name: 'Class 6' },
+  { id: 7, name: 'Class 7' },
+  { id: 8, name: 'Class 8' },
+  { id: 9, name: 'Class 9' },
+  { id: 10, name: 'Class 10' },
+  { id: 11, name: 'Class 11' },
+  { id: 12, name: 'Class 12' }
+
 ];
 
 const SAMPLE_STREAMS = [
@@ -57,7 +67,7 @@ export default function NewStudentPage() {
     class: '',
     stream: '',
     phone: '',
-    nationality: 'Uganda',
+    nationality: 'Pakistan',
     password: '',
     state: '',
     birthCertNo: '',
@@ -262,7 +272,13 @@ export default function NewStudentPage() {
               value={formData.nationality}
               onChange={(e) => setFormData({...formData, nationality: e.target.value})}
             >
-              <option value="Uganda">Uganda</option>
+              <option value="Pakistan">Pakistan</option>
+              <option value="India">India</option>
+              <option value="Bangladesh">Bangladesh</option>
+              <option value="Nepal">Nepal</option>
+              <option value="Sri Lanka">Sri Lanka</option>
+              <option value="Afghanistan">Afghanistan</option>
+            
               {/* Add more nationality options */}
             </select>
           </div>
@@ -348,7 +364,10 @@ export default function NewStudentPage() {
               value={formData.religion}
               onChange={(e) => setFormData({...formData, religion: e.target.value})}
             >
-              <option value="">Select religion</option>
+              <option value="Muslim">Select religion</option>
+              <option value="Muslim">Muslim</option>
+              <option value="Non Muslim">Christian</option>
+              <option value="Non Muslim">Hindu</option>
               {/* Add religion options */}
             </select>
           </div>
