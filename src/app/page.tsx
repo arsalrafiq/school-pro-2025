@@ -5,6 +5,7 @@ import TrustedBy from './components/TrustedBy'
 import AdditionalFeatures from './components/AdditionalFeatures'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
+import NumberCount from './components/numberCount'
 import { useRouter } from 'next/navigation'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <TrustedBy />
       <div className="flex-grow">
         <section id="features" className="py-16">
+          <NumberCount />
           <Features />
           <AdditionalFeatures />
         </section>
