@@ -14,7 +14,7 @@ const data = [
 export default function SalesChart() {
   return (
     <div className="bg-white p-6 rounded-lg shadow">
-      <h3 className="text-lg font-medium text-gray-900 mb-4">Sales Overview</h3>
+      <h3 className="text-lg font-medium text-gray-900 mb-4">Fee Overview</h3>
       <div className="h-[300px]">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={data}>
