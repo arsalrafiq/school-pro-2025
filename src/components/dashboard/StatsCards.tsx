@@ -8,10 +8,10 @@ import {
 } from '@heroicons/react/24/outline';
 
 const stats = [
-  { name: 'Total Sales', value: '83', icon: ShoppingCartIcon },
-  { name: 'Total Revenue', value: '$17,884,143', icon: CurrencyDollarIcon },
-  { name: 'Total Orders', value: '31', icon: ClipboardDocumentListIcon },
-  { name: 'Total Products', value: '21', icon: CubeIcon },
+  { name: 'Total Students', value: '83', icon: ShoppingCartIcon },
+  { name: 'Total Teachers', value: '13', icon: CurrencyDollarIcon },
+  { name: 'Total Parents', value: '31', icon: ClipboardDocumentListIcon },
+  { name: 'Total Classes', value: '13', icon: CubeIcon },
 ];
 
 export default function StatsCards() {

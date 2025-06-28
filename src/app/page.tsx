@@ -5,7 +5,7 @@ import TrustedBy from './components/TrustedBy'
 import AdditionalFeatures from './components/AdditionalFeatures'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
-import NumberCount from './components/numberCount'
+import NumberCount from './components/NumberCount'
 import { useRouter } from 'next/navigation'
 
 export default function Home() {
