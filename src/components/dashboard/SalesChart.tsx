@@ -3,12 +3,12 @@
 import { Line, LineChart, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const data = [
-  { name: 'Jan', sales: 4000 },
-  { name: 'Feb', sales: 3000 },
-  { name: 'Mar', sales: 2000 },
-  { name: 'Apr', sales: 2780 },
-  { name: 'May', sales: 1890 },
-  { name: 'Jun', sales: 2390 },
+  { name: 'Jan', Monthly_fee: 4000 },
+  { name: 'Feb', Monthly_fee: 3000 },
+  { name: 'Mar', Monthly_fee: 2000 },
+  { name: 'Apr', Monthly_fee: 2780 },
+  { name: 'May', Monthly_fee: 1890 },
+  { name: 'Jun', Monthly_fee: 2390 },
 ];
 
 export default function SalesChart() {
@@ -23,7 +23,7 @@ export default function SalesChart() {
             <YAxis />
             <Tooltip />
             <Legend />
-            <Line type="monotone" dataKey="sales" stroke="#4F46E5" />
+            <Line type="monotone" dataKey="Monthly_fee" stroke="#4F46E5" />
           </LineChart>
         </ResponsiveContainer>
       </div>
