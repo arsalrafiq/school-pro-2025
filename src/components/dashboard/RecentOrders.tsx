@@ -3,7 +3,7 @@
 const orders = [
   {
     id: 1,
-    customer: 'John Doe',
+    customer: 'Muhammad Ali',
     product: 'Mathematics Course',
     date: '2024-01-10',
     amount: '$299.00',
@@ -11,7 +11,7 @@ const orders = [
   },
   {
     id: 2,
-    customer: 'Jane Smith',
+    customer: 'Ayesha Khan',
     product: 'Science Course',
     date: '2024-01-09',
     amount: '$199.00',
